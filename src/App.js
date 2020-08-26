@@ -6,8 +6,8 @@ import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 class App extends Component {
   render() {
     return (
-<div className="App">
-  <div className="title-main"> Sandboxed </div>
+  <div className="App">
+    <div className="title-main"> Sandboxed </div>
       <div className="search-top">
         <FormGroup>
           <InputGroup>
@@ -21,14 +21,14 @@ class App extends Component {
           </InputGroup>
         </FormGroup>
     
-  </div>
+    </div>
     <div className="menu-top"></div>
     <div className="hero-nav"></div>
     <div className="view-box"></div>
+  </div>
 
 
 
-</div>
     )
   }
 }
