@@ -1,9 +1,18 @@
-import React, { Component } from 'react';
-import ReactDOM from "react-dom";
-import App from './App';
+import React from 'react'
+import ReactDom from 'react-dom'
 
+function MyInfo () {
+  return (
+    <div>
+      <h1>Jonathan </h1>
+      <p>I code</p>
+    </div>
+  )
+}
 
 ReactDOM.render(
-    <App />, document.getElementById('root')
 
-);
+<MyInfo />,
+document.getElemendById("root")
+
+)
