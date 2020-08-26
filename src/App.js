@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import ReactDOM from 'reactDOM';
-
-import {FormGroup, FormControl, InputGroup, Glyphicon} from 'react-bootstrap';
-import "./style.css";
-import "./ConnectDB.js";
+import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
+//import "./style.css";
+//import "./ConnectDB.js";
 
 class App extends Component {
   render() {
     return (
-<div>
+<div className="App">
   <div className="title-main"> Sandboxed </div>
       <div className="search-top">
         <FormGroup>
@@ -23,7 +21,7 @@ class App extends Component {
           </InputGroup>
         </FormGroup>
     
-      </div>
+  </div>
     <div className="menu-top"></div>
     <div className="hero-nav"></div>
     <div className="view-box"></div>
