@@ -1,34 +1,30 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
-//import "./style.css";
-//import "./ConnectDB.js";
 
-class App extends React.Component {
+
+class App extends Component {
   render() {
     return (
   
-    
+    <div>
       
         <FormGroup>
           <InputGroup>
             <FormControl
               type="text"
               placeholder="Client Search"
+              
             />
               <InputGroup.Addon>
-              <Glyphicon glyph="search"></Glyphicon>
+              <Glyphicon></Glyphicon>
               </InputGroup.Addon>
           </InputGroup>
         </FormGroup>
     
-    
-  
+    </div>
     )
-
-
     
   }
 }
-
 export default App;
